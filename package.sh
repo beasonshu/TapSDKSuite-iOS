@@ -51,3 +51,7 @@ mkdir -p $DIR_PRODUCT
 cp -a ./TapSDKSuiteKit/TapSDKSuiteResource.bundle $DIR_PRODUCT
 
 buildFramework "TapSDKSuiteKit" "$DIR_ROOT/TapSDKSuiteKit"
+
+cd $DIR_ROOT
+
+zip -q -ry TapSDKSuite_$GITHUB_REF_NAME.zip $DIR_PRODUCT

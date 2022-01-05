@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F57E1882779576A00CC8998 /* TapMomentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F57E1872779576A00CC8998 /* TapMomentSDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3F57E18D27795B2600CC8998 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F57E18C27795B2600CC8998 /* FriendViewController.m */; };
+		3F57E18F27795EEC00CC8998 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F57E18E27795EE600CC8998 /* libc++.tbd */; };
+		3F8EEA322783E2C500B58EC3 /* TapSDKSuiteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8EEA312783E2C500B58EC3 /* TapSDKSuiteKit.framework */; };
+		3F8EEA382783E95400B58EC3 /* TapSDKSuiteResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F8EEA372783E95400B58EC3 /* TapSDKSuiteResource.bundle */; };
+		3F98BD772772DB7700850276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98BD762772DB7700850276 /* AppDelegate.m */; };
+		3F98BD7D2772DB7800850276 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98BD7C2772DB7800850276 /* ViewController.m */; };
+		3F98BD802772DB7800850276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F98BD7E2772DB7800850276 /* Main.storyboard */; };
+		3F98BD822772DB7900850276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F98BD812772DB7900850276 /* Assets.xcassets */; };
+		3F98BD852772DB7900850276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F98BD832772DB7900850276 /* LaunchScreen.storyboard */; };
+		3F98BD882772DB7900850276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F98BD872772DB7900850276 /* main.m */; };
+		3F98BDB82772F3CA00850276 /* TapCommonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDB72772F3CA00850276 /* TapCommonSDK.framework */; };
+		3F98BDBB2772F3E100850276 /* TapCommonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDB72772F3CA00850276 /* TapCommonSDK.framework */; };
+		3F98BDCA2772F3E100850276 /* TapDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDBF2772F3E100850276 /* TapDB.framework */; };
+		3F98BDCC2772F3E100850276 /* TapBootstrapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDC02772F3E100850276 /* TapBootstrapSDK.framework */; };
+		3F98BDCE2772F3E100850276 /* TapLoginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDC12772F3E100850276 /* TapLoginSDK.framework */; };
+		3F98BDD22772F3E100850276 /* TapAchievementSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDC32772F3E100850276 /* TapAchievementSDK.framework */; };
+		3F98BDD42772F3E100850276 /* TapFriendSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDC42772F3E100850276 /* TapFriendSDK.framework */; };
+		3F98BDD62772F3E200850276 /* TapSupportSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDC52772F3E100850276 /* TapSupportSDK.framework */; };
+		3F98BDDC2772F3EE00850276 /* LeanCloudObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98BDC22772F3E100850276 /* LeanCloudObjc.framework */; platformFilter = ios; };
+		3F98BDE72772F43000850276 /* TapMomentResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F98BDE42772F43000850276 /* TapMomentResource.bundle */; };
+		3F98BDE92772F43000850276 /* TapAchievementResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F98BDE62772F43000850276 /* TapAchievementResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F57E1872779576A00CC8998 /* TapMomentSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapMomentSDK.framework; path = ../Sources/TapSDK/TapMomentSDK.framework; sourceTree = "<group>"; };
+		3F57E18B27795B2600CC8998 /* FriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		3F57E18C27795B2600CC8998 /* FriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		3F57E18E27795EE600CC8998 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3F8EEA312783E2C500B58EC3 /* TapSDKSuiteKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TapSDKSuiteKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8EEA372783E95400B58EC3 /* TapSDKSuiteResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapSDKSuiteResource.bundle; path = ../TapSDKSuiteKit/TapSDKSuiteResource.bundle; sourceTree = "<group>"; };
+		3F98BD722772DB7700850276 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F98BD752772DB7700850276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F98BD762772DB7700850276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F98BD7B2772DB7800850276 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F98BD7C2772DB7800850276 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F98BD7F2772DB7800850276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F98BD812772DB7900850276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F98BD842772DB7900850276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F98BD862772DB7900850276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F98BD872772DB7900850276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F98BDB72772F3CA00850276 /* TapCommonSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapCommonSDK.framework; path = ../Sources/TapSDK/TapCommonSDK.framework; sourceTree = "<group>"; };
+		3F98BDBF2772F3E100850276 /* TapDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapDB.framework; path = ../Sources/TapSDK/TapDB.framework; sourceTree = "<group>"; };
+		3F98BDC02772F3E100850276 /* TapBootstrapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapBootstrapSDK.framework; path = ../Sources/TapSDK/TapBootstrapSDK.framework; sourceTree = "<group>"; };
+		3F98BDC12772F3E100850276 /* TapLoginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapLoginSDK.framework; path = ../Sources/TapSDK/TapLoginSDK.framework; sourceTree = "<group>"; };
+		3F98BDC22772F3E100850276 /* LeanCloudObjc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LeanCloudObjc.framework; path = ../Sources/TapSDK/LeanCloudObjc.framework; sourceTree = "<group>"; };
+		3F98BDC32772F3E100850276 /* TapAchievementSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapAchievementSDK.framework; path = ../Sources/TapSDK/TapAchievementSDK.framework; sourceTree = "<group>"; };
+		3F98BDC42772F3E100850276 /* TapFriendSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapFriendSDK.framework; path = ../Sources/TapSDK/TapFriendSDK.framework; sourceTree = "<group>"; };
+		3F98BDC52772F3E100850276 /* TapSupportSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TapSupportSDK.framework; path = ../Sources/TapSDK/TapSupportSDK.framework; sourceTree = "<group>"; };
+		3F98BDE42772F43000850276 /* TapMomentResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapMomentResource.bundle; path = ../Sources/TapSDK/TapMomentResource.bundle; sourceTree = "<group>"; };
+		3F98BDE62772F43000850276 /* TapAchievementResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapAchievementResource.bundle; path = ../Sources/TapSDK/TapAchievementResource.bundle; sourceTree = "<group>"; };
+		3F9D4DC327746A330002019A /* TapFloatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TapFloatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F98BD6F2772DB7700850276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F98BDB82772F3CA00850276 /* TapCommonSDK.framework in Frameworks */,
+				3F57E1882779576A00CC8998 /* TapMomentSDK.framework in Frameworks */,
+				3F98BDD22772F3E100850276 /* TapAchievementSDK.framework in Frameworks */,
+				3F98BDDC2772F3EE00850276 /* LeanCloudObjc.framework in Frameworks */,
+				3F98BDCA2772F3E100850276 /* TapDB.framework in Frameworks */,
+				3F57E18F27795EEC00CC8998 /* libc++.tbd in Frameworks */,
+				3F98BDD42772F3E100850276 /* TapFriendSDK.framework in Frameworks */,
+				3F98BDD62772F3E200850276 /* TapSupportSDK.framework in Frameworks */,
+				3F98BDCE2772F3E100850276 /* TapLoginSDK.framework in Frameworks */,
+				3F8EEA322783E2C500B58EC3 /* TapSDKSuiteKit.framework in Frameworks */,
+				3F98BDCC2772F3E100850276 /* TapBootstrapSDK.framework in Frameworks */,
+				3F98BDBB2772F3E100850276 /* TapCommonSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F98BD692772DB7700850276 = {
+			isa = PBXGroup;
+			children = (
+				3F8EEA372783E95400B58EC3 /* TapSDKSuiteResource.bundle */,
+				3F98BDE62772F43000850276 /* TapAchievementResource.bundle */,
+				3F98BDE42772F43000850276 /* TapMomentResource.bundle */,
+				3F98BD742772DB7700850276 /* Demo */,
+				3F98BD732772DB7700850276 /* Products */,
+				3F98BDB22772F30500850276 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F98BD732772DB7700850276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F98BD722772DB7700850276 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F98BD742772DB7700850276 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F98BD752772DB7700850276 /* AppDelegate.h */,
+				3F98BD762772DB7700850276 /* AppDelegate.m */,
+				3F98BD7B2772DB7800850276 /* ViewController.h */,
+				3F98BD7C2772DB7800850276 /* ViewController.m */,
+				3F57E18B27795B2600CC8998 /* FriendViewController.h */,
+				3F57E18C27795B2600CC8998 /* FriendViewController.m */,
+				3F98BD7E2772DB7800850276 /* Main.storyboard */,
+				3F98BD812772DB7900850276 /* Assets.xcassets */,
+				3F98BD832772DB7900850276 /* LaunchScreen.storyboard */,
+				3F98BD862772DB7900850276 /* Info.plist */,
+				3F98BD872772DB7900850276 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		3F98BDB22772F30500850276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F8EEA312783E2C500B58EC3 /* TapSDKSuiteKit.framework */,
+				3F57E18E27795EE600CC8998 /* libc++.tbd */,
+				3F57E1872779576A00CC8998 /* TapMomentSDK.framework */,
+				3F9D4DC327746A330002019A /* TapFloatKit.framework */,
+				3F98BDC22772F3E100850276 /* LeanCloudObjc.framework */,
+				3F98BDC32772F3E100850276 /* TapAchievementSDK.framework */,
+				3F98BDC02772F3E100850276 /* TapBootstrapSDK.framework */,
+				3F98BDBF2772F3E100850276 /* TapDB.framework */,
+				3F98BDC42772F3E100850276 /* TapFriendSDK.framework */,
+				3F98BDC12772F3E100850276 /* TapLoginSDK.framework */,
+				3F98BDC52772F3E100850276 /* TapSupportSDK.framework */,
+				3F98BDB72772F3CA00850276 /* TapCommonSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F98BD712772DB7700850276 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F98BD8B2772DB7900850276 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				3F98BD6E2772DB7700850276 /* Sources */,
+				3F98BD6F2772DB7700850276 /* Frameworks */,
+				3F98BD702772DB7700850276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 3F98BD722772DB7700850276 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F98BD6A2772DB7700850276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					3F98BD712772DB7700850276 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F98BD6D2772DB7700850276 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F98BD692772DB7700850276;
+			productRefGroup = 3F98BD732772DB7700850276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F98BD712772DB7700850276 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F98BD702772DB7700850276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8EEA382783E95400B58EC3 /* TapSDKSuiteResource.bundle in Resources */,
+				3F98BDE72772F43000850276 /* TapMomentResource.bundle in Resources */,
+				3F98BDE92772F43000850276 /* TapAchievementResource.bundle in Resources */,
+				3F98BD852772DB7900850276 /* LaunchScreen.storyboard in Resources */,
+				3F98BD822772DB7900850276 /* Assets.xcassets in Resources */,
+				3F98BD802772DB7800850276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F98BD6E2772DB7700850276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F57E18D27795B2600CC8998 /* FriendViewController.m in Sources */,
+				3F98BD7D2772DB7800850276 /* ViewController.m in Sources */,
+				3F98BD772772DB7700850276 /* AppDelegate.m in Sources */,
+				3F98BD882772DB7900850276 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F98BD7E2772DB7800850276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F98BD7F2772DB7800850276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F98BD832772DB7900850276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F98BD842772DB7900850276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F98BD892772DB7900850276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F98BD8A2772DB7900850276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F98BD8C2772DB7900850276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Sources/TapSDK/",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tdssdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F98BD8D2772DB7900850276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../Sources/TapSDK/",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tdssdk.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F98BD6D2772DB7700850276 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F98BD892772DB7900850276 /* Debug */,
+				3F98BD8A2772DB7900850276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F98BD8B2772DB7900850276 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F98BD8C2772DB7900850276 /* Debug */,
+				3F98BD8D2772DB7900850276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F98BD6A2772DB7700850276 /* Project object */;
+}

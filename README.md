@@ -1,16 +1,22 @@
-# TapSDKSuite
-## Usage
+# TapSDKSuite-iOS
+TapSDKSuite提供了一个可以快速展示TapSDK功能的悬浮窗口。
+
+## 效果展示
+<img src=./art/example.gif width=222 height=480 />
+
+## 安装和使用
 1. 把 TapSDKSuiteKit.framework 添加到你的工程内并设置为 `Do Not Embed`，导入 TapSDKSuiteResource.bundle
 2. 声明头文件 `#import <TapSDKSuiteKit/TapSDKSuiteKit.h>` 
 3. 配置功能入口
 
     ```objectivec
     // 入口数量建议不少于3个以保证显示效果
-    NSArray<TapSDKSuiteComponent *>*array = @[[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeMoment,
-                                           [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeFirend],
-                                           [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeAchievement],
-                                           [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeChat],
-                                           [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeLeaderboard]];
+    NSArray<TapSDKSuiteComponent *>*array = 
+    @[[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeMoment,
+    [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeFirend],
+    [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeAchievement],
+    [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeChat],
+    [[TapSDKSuiteComponent alloc] initWithType:TapSDKSuiteComponentTypeLeaderboard]];
 
     [[TapSDKSuite shareInstance] setComponentArray:array];
     ```
